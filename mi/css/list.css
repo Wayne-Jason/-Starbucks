@@ -1,0 +1,177 @@
+.slide{
+	position: relative;
+}
+.slide,.slide ul{
+	width: 100%;
+	height: 620px;
+}
+.slide li{
+	width: 100%;
+	height: 620px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 100%;
+}
+.slide .container{
+	position: absolute;
+	top:0px;
+	left:0px;
+	right: 0px;
+	height: 620px;
+}
+.slide .btn{
+	width: 100%;
+	height: 620px;
+	position: relative;
+}
+
+.slide .Lbtn,
+.slide .Rbtn {
+	width: 41px;
+	height: 69px;
+	background: url(../img/icon-slides.png) no-repeat -83px 0px;
+}
+
+.slide .Rbtn {
+	background-position: -124px 0px;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	margin-top: -34px;
+}
+
+.slide .Lbtn {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	margin-top: -34px;
+}
+
+.slide .Rbtn:hover {
+	background-position: -42px 0px;
+}
+
+.slide .Lbtn:hover {
+	background-position: 0px 0px;
+}
+
+
+.slide ol {
+	position: absolute;
+	right: 0px;
+	left:0px;
+	bottom: 25px;
+	width: 100px;
+	margin: 0 auto;
+}
+
+.slide ol li {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #B8AFAF;
+	background: #998C8C;
+	float: left;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+
+.slide ol li.con {
+	background: #FFF2F2;
+}
+
+
+/* 商品列表 */
+.goodsList{
+	background: #F5F5F5;
+}
+.goodsList h1{
+	margin:20px 0px;
+}
+.goodsList .box-bd{
+	width: 100%;
+}
+.goodsList .box-bd dt{
+	width: 1226px;
+	height: 435px;
+}
+.goodsList .box-bd dt img{
+	width: 854px;
+	height: 435px;
+	float: left;
+}
+.goodsList .box-bd dt>div{
+	width: 372px;
+	height: 435px;
+	background: #fff;
+	float: left;
+}
+.goodsList .box-bd dt h2{
+	margin: 95px 63px 10px 63px;
+	font-size: 32px;
+	color: #4C4C4C;
+	font-weight: normal;
+}
+.goodsList .box-bd dt h5{
+	color:#727272;
+	margin: 0px 63px;
+	font-weight: normal;
+}
+.goodsList .box-bd dt span{
+	display: inline-block;
+	margin: 48px 63px 0px 63px;
+	color: #FF6700;
+	font-size: 32px;
+	font-weight: normal;
+}
+.goodsList .box-bd dt i{
+	font-style: normal;
+	font-size: 12px;
+}
+.goodsList .box-bd dt a{
+	display: block;
+	font-size: 14px;
+	margin: 122px 63px 0px 63px;
+	color: #727272;
+}
+
+.goodsList .box-bd dd {
+	width: 606px;
+	position: relative;
+}
+.goodsList .box-bd dd img{
+	width: 606px;
+	height: 358px;
+	float: left;
+}
+.goodsList .box-bd dd>div{
+	float: left;
+	width: 606px;
+	height: 124px;
+	background: #fff;
+}
+
+.goodsList .box-bd dd h2{
+	font-size: 26px;
+	color: #4C4C4C;
+	font-weight: normal;
+	margin-top: 38px;
+	margin-left: 48px;
+}
+.goodsList .box-bd dd h5{
+	color:#727272;
+	font-weight: normal;
+	margin-left: 48px;
+	margin-top:8px;
+}
+.goodsList .box-bd dd span{
+	color: #FF6700;
+	font-size: 30px;
+	font-weight: normal;
+	position: absolute;
+	right: 48px;
+	bottom: 35px;
+}
+.goodsList .box-bd dd i{
+	font-style: normal;
+	font-size: 12px;
+}

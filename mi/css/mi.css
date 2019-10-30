@@ -1,0 +1,386 @@
+
+
+
+
+
+.wrapper {
+	position: relative;
+}
+
+.slide {
+	position: relative;
+}
+
+.slide img {
+	width: 100%;
+	float: left;
+}
+
+.slide .btn {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 460px;
+}
+
+.slide .Lbtn,
+.slide .Rbtn {
+	width: 41px;
+	height: 69px;
+	background: url(../img/icon-slides.png) no-repeat -83px 0px;
+}
+
+.slide .Rbtn {
+	background-position: -124px 0px;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	margin-top: -34px;
+}
+
+.slide .Lbtn {
+	position: absolute;
+	left: 235px;
+	top: 50%;
+	margin-top: -34px;
+}
+
+.slide .Rbtn:hover {
+	background-position: -42px 0px;
+}
+
+.slide .Lbtn:hover {
+	background-position: 0px 0px;
+}
+
+.slide ol {
+	position: absolute;
+	right: 35px;
+	bottom: 25px;
+}
+
+.slide ol li {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #B8AFAF;
+	background: #998C8C;
+	float: left;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+
+.slide ol li.con {
+	background: #FFF2F2;
+}
+
+.category {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 235px;
+	height: 460px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.category ul {
+	padding: 20px 0px;
+}
+
+.category li {
+	height: 42px;
+	line-height: 42px;
+	width: 100%;
+}
+
+.category a {
+	display: block;
+	padding-left: 30px;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+	color: #fff;
+	background: url(../img/icon.png) no-repeat 202px 14px;
+}
+
+.category a:hover {
+	background: #FF6700 url(../img/icon.png) no-repeat 202px 14px;
+}
+
+.category .item {
+	position: absolute;
+	top: 0px;
+	left: 235px;
+	width: 990px;
+	height: 458px;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	background: #fff;
+	display: none;
+	/* 隐藏 */
+}
+
+.category .item ol{
+		width: 100%;
+}
+.category .item>ol>li{
+	width: 25%;
+	height: auto;
+}
+.category .item>ol>li a{
+	display: block;
+	padding: 17px;
+	background: none;
+}
+.category .item>ol>li a:hover{
+	background: #fff;
+}
+.category .item>ol>li a:hover span{
+	color: #FF6700;
+}
+.category .item>ol>li img{
+	width: 40px;
+	height: 40px;
+}
+.category .item>ol>li span{
+	font-size: 14px;
+	color:#333;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	display: block;
+}
+
+.category li:hover .item{
+	display: block;
+}
+
+.rightBar {
+	width: 82px;
+	height: 300px;
+	position: fixed;
+	top: 256px;
+	right: 0px;
+	border-top: 1px solid #F5F5F5;
+}
+
+.rightBar li {
+	background: #fff;
+	border-left: 1px solid #F5F5F5;
+	border-bottom: 1px solid #F5F5F5;
+	text-align: center;
+	width: 80px;
+	height: 90px;
+	float: left;
+}
+
+.rightBar li .img {
+	width: 30px;
+	height: 30px;
+	margin: 20px auto 10px auto;
+}
+
+.rightBar li img {
+	width: 100%;
+}
+
+.rightBar p {
+	color: #757575;
+	font-size: 14px;
+}
+
+.rightBar li a {
+	display: block;
+	width: 100%;
+	height: 90px;
+	float: left;
+}
+
+.rightBar li a:hover p {
+	color: #FF6700;
+}
+
+/* 家电 */
+.homeelec{
+	width: 100%;
+	background: #F5F5F5;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+.homeelec .box-hd{
+	height: 60px;
+	line-height: 60px;
+}
+
+.homeelec .box-hd a{
+	color: #424242;
+	display: inline-block;
+	padding: 5px 0px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+.homeelec .box-hd a.con{
+	color: #FF6700;
+	border-bottom: 2px solid #FF6700;
+}
+.homeelec .box-bd .bdleft{
+	width: 234px;
+	height: 614px;
+}
+.homeelec .box-bd .bdleft a{
+	display: inline-block;
+	width: 234px;
+	height: 300px;
+}
+.homeelec .box-bd .bdleft a img{
+	float: left;
+	width: 234px;
+	height: 300px;
+}
+.homeelec .box-bd .bdright{
+	width: 978px;
+	height: 614px;
+	overflow: hidden;
+}
+.homeelec .box-bd .bdright ul{
+	width: 1030px;
+}
+.homeelec .box-bd .bdright li{
+	width: 234px;
+	height: 300px;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+}
+.homeelec .box-bd .bdright li .flag{
+	width: 64px;
+	height: 20px;
+	position: absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	margin: auto;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+.homeelec .box-bd .bdright .img{
+	width: 150px;
+	height: 150px;
+	margin: 30px 42px 20px 42px;
+}
+.homeelec .box-bd .bdright img{
+		width: 150px;
+		height: 150px;
+}
+.homeelec .box-bd .bdright h5,.homeelec .box-bd .bdright h6{
+	height: 23px;
+	line-height: 23px;
+	color: #333333;
+	text-align: center;
+	font-weight: normal;
+}
+.homeelec .box-bd .bdright h6{
+	color:#B0B0B0;
+}
+.homeelec .box-bd .bdright .price{
+	text-align: center;
+	color: #FF6700;
+	font-size: 14px;
+	margin-top:10px;
+}
+.homeelec .box-bd .bdright .price del{
+	color: #B0B0B0;
+	font-size: 12px;
+}
+.homeelec .box-bd .bdright .bottom {
+	position: absolute;
+	left:0px;
+	bottom: -76px;
+	height: 76px;
+	background: #FF6700;
+	width: 100%;
+	z-index: 100;
+}
+.homeelec .box-bd .bdright li:hover .bottom{
+	bottom:0px;
+}
+.homeelec .box-bd .bdright .bottom p{
+	margin-top:10px;
+	color:#fff;
+	font-size: 12px;
+	padding:0px 29px;
+}
+.homeelec .box-bd .bdright .bottom p.c1{
+	color:#FFC299;
+}
+
+/* 为你推荐 */
+.recommend{
+	width: 100%;
+	background: #F5F5F5;
+	padding-bottom:20px;
+}
+.recommend .container{
+	position: relative;
+}
+.recommend .box-hd{
+	height: 60px;
+	line-height: 60px;
+}
+.recommend .box-hd .btn{
+	position: absolute;
+	top:17px;
+	right:0px;
+	width: 71px;
+	height: 24px;
+}
+.recommend .box-hd .btn span{
+	display: inline-block;
+	border:1px solid #E0E0E0;
+	height:22px;
+	width: 34px;
+	background: url(../img/icon-1.png) no-repeat center center;
+}
+.recommend .box-hd .btn span.next{
+	margin-left:-1px;
+	background-image: url(../img/icon.png);
+}
+.recommend .box-bd {
+	width: 1226px;
+	overflow: hidden;
+}
+.recommend .box-bd ul{
+	width: 1240px;
+}
+.recommend .box-bd li{
+	background: #fff;
+	width: 234px;
+	height: 300px;
+	text-align: center;
+}
+.recommend .box-bd li .img{
+	width: 140px;
+	height: 140px;
+	margin: 40px auto 20px auto;
+}
+.recommend .box-bd li img{
+		width: 140px;
+		height: 140px;
+	}
+.recommend .box-bd li h5{
+	color:#333333;
+	margin-bottom: 10px;
+	}
+.recommend .box-bd li span{
+	color:#FF6700;
+	}
+.recommend .box-bd li h6{
+	color:#757575;
+	font-weight: normal;
+	}
+
